@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>表格表单练习</title>
+</head>
+<body>
+<form>
+<table align="center" border="1" bordercolor="grey" width="600" height="500" cellspacing="0" style="border-collapse: collapse;">
+<tr><td>&nbsp;用户名:</td><td>&nbsp;<input type="text" style="height:20px;width:200px"></td></tr>
+<tr><td>&nbsp;密码:</td><td>&nbsp;<input type="password" style="height:20px;width:200px"></td></tr>
+<tr><td>&nbsp;确认密码:</td><td>&nbsp;<input type="password" style="height:20px;width:200px"></td></tr>
+<tr><td>&nbsp;性别:</td><td>&nbsp;<input type="radio" name="sex" checked>男&nbsp;&nbsp;<input type="radio" name="sex">女<br>
+<tr><td>&nbsp;生日:</td><td>&nbsp;<select name="birthday"><option style="width:50px;height:20px">阴历</option><option>阳历</option></select>&nbsp;<select name="year" style="width:50px;height:20px"><option>年</option></select>&nbsp;<select style="width:50px;height:20px"><option>月</option></select>&nbsp;<select style="width:50px;height:20px"><option>日</option></select>
+<tr><td>&nbsp;所在地:</td><td>&nbsp;<select style="width:80px;height:20px"><option>中国</option></select>&nbsp;<select style="width:80px;height:20px"><option>河北</option></select>&nbsp;<select style="width:80px;height:20px"><option>张家口</option></select>
+<tr><td>&nbsp;验证码</td><td>&nbsp;<input type="text" style="width:200px;height:20px">&nbsp;<img src="images/yanzhengma.jpg" width="120" height="20"></td>
+<tr><td>&nbsp;证件类型:</td><td>&nbsp;<select><option>身份证</option></select></td>
+<tr><td>&nbsp;证件号:</td><td>&nbsp;<input type="text" style="height:20px;width:200px">
+<tr><td>&nbsp;爱好:</td><td>&nbsp;<input type="checkbox" name="likes">音乐<input type="checkbox" name="likes" checked>读书<input type="checkbox" name="likes" checked>跳舞<input type="checkbox" name="likes">下棋<input type="checkbox" name="likes">其他</td></tr>
+<tr><td>&nbsp;说明</td><td>&nbsp;<input type="text" style="height:100px;width:200px"></td></tr>
+<tr><td>&nbsp;上传文件</td><td>&nbsp;<input type="file"></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" name="提交">&nbsp;<input type="reset" name="重置">&nbsp;<input type="button" value="按钮"></td></tr>
+</table>
+</form>
+</body>
+</html>
