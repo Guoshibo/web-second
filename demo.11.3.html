@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>demo.11.3</title>
+<style>
+	select{width: 200px;}
+	.red{background-color:red;}
+	.orange{background-color:orange;}
+	.yellow{background-color:yellow;}
+	.green{background-color:green;}
+	.aqua{background-color:aqua;}
+	.blue{background-color:blue;}
+	.fuchsia{background-color:fuchsia;}
+	*{
+	padding:0px;
+	margin:0px;
+	}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	}
+.big {
+	width:300px;
+	margin:0 auto 0 auto;
+}
+.big p {
+	margin:5px 0 0 5px;}
+
+#thisform {
+	font-size:12px;
+	color:#999;
+}
+#thisform label {
+	font-weight:bold;
+	color:#660000;
+}
+#thisform fieldset {
+	border:1px solid #cc;
+	padding:0 20px;
+}
+#thisform legend {
+	font-weight:bold;
+	font-size:90%;
+	color:#666;
+	background:#eee;
+	border:1px solid #ccc;
+	border-bottom-color:#999;
+	border-right-color:#999;
+	padding:4px 8px;
+}
+.txt{
+	width:200px;
+	background-color:#CCCCFF;
+	border:#6666FF 1px solid;
+	color:#0066FF;
+	}
+.but{
+border:0px#93bee2solid;
+border-bottom:#93bee21pxsolid;
+border-left:#93bee21pxsolid;
+border-right:#93bee21pxsolid;
+border-top:#93bee21pxsolid;*/
+background-color:#3399CC;
+cursor:hand;
+font-style:normal;
+color:#FFFFFF;
+}
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+	font-family:"宋体";
+	font-size:12px;
+}
+.big {
+	width:300px;
+	margin:0 auto 0 auto;
+	border:#999999 1px solid;
+}
+h1 {
+	display:block;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	color:#FF0000;
+	background-color:#3399FF;
+}
+table{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:10px;
+	}
+td{
+	font-size:14px;
+	font-weight:800;
+	height:25px;
+	line-height:25px;
+	}
+.big p {
+	margin:5px 0 10px 0;
+	text-align:center;
+	}
+.txt{
+	background-color:#6699CC;
+	height:18px;
+	color:#FFFFFF;
+	}
+.den{
+	width:50px;
+	height:20px;
+	background-color:#CCFF00;
+	border:#0000CC 2px groove;
+	cursor:pointer;
+	}
+.tui{
+	width:50px;
+	height:20px;
+	background-color:#6666CC;
+	border:#0000CC 2px groove;
+		cursor:pointer;
+		color:#FFFFFF;
+	}
+	ul{
+				list-style-type:square;
+			}
+.a{width:300px;height:100px;background:#f00;border-width:1px 5px 3px 8px;border-style:dotted;}
+		.b{width:300px;height:100px;background:#0f0;border-width:1px 5px 3px 8px;border-style:dotted;margin:10px;}
+		.c{width:300px;height:100px;background:#00f;border-width:1px 5px 3px 8px;border-style:dotted;}
+</style>
+</head>
+<body>
+<form>
+	<select>
+		<option class="red">红</option>
+		<option class="orange">橙</option>
+		<option class="yellow">黄</option>
+		<option class="green">绿</option>
+		<option class="aqua">青</option>
+		<option class="blue">蓝</option>
+		<option class="fuchsia">紫</option>
+	</select>
+</form>
+<form action="" id="thisform" class="big" >
+  <fieldset>
+  <legend>注册信息</legend>
+  <p>
+    <label for="name" accesskey="9">用户名:</label>
+    <br />
+    <input type="text" id="name" name="name" tabindex="1" class="txt">
+  </p>
+  <p>
+    <label for="email">登录邮箱:</label>
+    <br />
+    <input type="text" id="email" name="email"tabindex="2" class="txt">
+  </p>
+    <p>
+    <label for="email">登录密码:</label>
+    <br />
+    <input type="password" id="email" name="email"tabindex="2" class="txt">
+  </p>
+  <p>
+    <input type="checkbox" id="remeber" name="remeber" tabindex="3" style="background-color:#FF0000;"/>
+    <laber for="remeber">
+    接受用户协议
+    </label>
+  </p>
+  <p>
+    <input type="submit" value="提交注册" tabindex="4" class="but"/><input name="" type="reset" value="全部重置" class="but" />  
+  </p>
+  </fieldset>
+</form>
+<form class="big">
+	  <h1>&nbsp;会员登录<span style="margin-left:150px;">返回首页&gt;&gt;</span></h1>
+<table width="300" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="width:100px;">会员名</td>
+    <td><input name="" type="text" value="huiyuan001" style="width:180px;" class="txt" /></td>
+  </tr>
+  <tr>
+    <td style="width:100px;">密码</td>
+    <td><input name="" type="password" value="123456" style="width:180px;" class="txt" /></td>
+  </tr>
+</table>
+<p><input type="button" value="登录" class="den" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="退出" class="tui" />  
+</p>
+</form>
+<p>Type square:</p>
+		<ul>
+			<li>Coffee</li>
+			<li>Tea</li>
+			<li>Coca Cola</li>
+		</ul>
+<div class='a'>a</div>
+<div class="b">b</div>
+<div class="c">c</div>
+</body>
+</html>
