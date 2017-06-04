@@ -1,0 +1,22 @@
+.image{
+	float: left;
+	text-align-last: center;
+	border: 1px solid#bebebe;
+	opacity: 0.5;
+}
+.image:hover{
+	opacity: 1.0;
+}
+.image img{
+            display:inline;
+            border:1px solid #bebebe;
+        }
+.image a:hover img
+       {
+            border:1px solid #333333;
+        }
+div.desc
+       {
+         text-align:center;
+         font-size:12px;
+    }
