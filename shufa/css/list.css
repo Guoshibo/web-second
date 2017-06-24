@@ -229,19 +229,7 @@ DIV.megas512 SPAN.disabled {
 	height:105px;
 	font-weight: bold;
 }
-.footer_lian{
-	margin:0px auto;
-	overflow: hidden;
-	margin-bottom:5px;
-	width: 450px;
-	text-align: center;
-	height:25px;}
+.footer_lian{margin:0px auto;margin-bottom:5px;width: 450px;text-align: center;height:25px;}
 .footer_lian ul{display:block;}
-.footer li{
-	float:left;
-	margin:5px 0px;
-	display:inline-block;
-}
-.footer p{
-	margin-top:10px;
-}
+.footer li{float:left;display:inline-block;}
+.footer p{margin-top:10px;}

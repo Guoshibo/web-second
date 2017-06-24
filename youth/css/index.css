@@ -1,0 +1,44 @@
+.logo img{margin:0 0 0 90px;padding:13px;float: left;}
+.find {position: absolute;left:850px;margin:90px 0 0 100px;}
+.find input{width: 200px;height: 20px;} 
+.find a{text-decoration: none;color: #002288;font-family: "微软雅黑"; font-weight: bold; }
+.menu {width:100%;height: 41px;background-color:#234567;}
+.menu ul{width: 1000px;margin:20px 0 0 0;}
+.menu ul li{float: left;width: 120px;line-height: 40px;text-align: center;}
+.menu ul{list-style:none;}
+.menu a{text-decoration: none; color: #fff;}
+.clear{clear: both; margin:50px;}
+.menu ul li a:hover{display: block;background-color: #def;color: #456;}
+#ab_12{color: #789def;}
+.first{font-size: 20px;line-height:28px;width: 1000px;text-align: center;}
+.first h3{text-align-last: center;}
+.second h3{text-align-last: center;}
+.second{font-size: 20px;line-height: 28px;float: left;}
+body{background-color: #ecf3fb;}
+.tu{position: relative;left: 150px}
+.list1 ul{list-style: none;}
+ul li a{text-decoration:none;color: #777aaa;font-size: 21px;}
+.list{width: 1000px; height:auto;margin-left: 170px;}
+.list1{width: 200px;height: 150px;float: left;border: 1px solid #ccc;margin-left: 22px;padding-top: 8px;}
+.list ul li{text-align-last: center;margin-left: -20px;line-height: 35px;}
+.sss{width: 1000px;height: auto;}
+.sss1{width: 480px;float:left;margin-top:10px;}
+.sss1 img{position: relative;left: 190px;margin-top: 10px;}
+.sss1 li{height: 41px;position: relative;left: 330px;}
+#def{position: relative;left: 208px; margin-top: 3px;}
+.sss1 a:hover{display: block;text-decoration-style:underline;color: #345;font-weight: bolder;}
+.clear{clear: both;}
+.ccc{margin-left: 140px;}
+.fff{width: 1000px;height: auto;}
+.fff1{width: 480px;float:left;margin-top:-20px;}
+.fff1 img{position: relative;left: 190px;}
+#fde{position: relative;left: 270px;margin-top:-50px;}
+#fed{margin-top: 8px;margin-left:770px;}
+.ddd{font-size: 20px;color: #234567;line-height: 30px;}
+h4{color: #234567;}
+.footer{background-image: url("../images/footer.png");height: 120px;margin-top:18px;padding:20px 0 0 0;text-align:center;}
+.footer_lian{margin:0px auto;width: 900px;height:30px;margin-left: 320px;}
+.footer li{float: left;}
+.footer li a{color: #111;font-size: 18px;}
+.footer p{margin-top:10px;}
+.footer ul{list-style-type: none;}
